@@ -1,0 +1,11 @@
+{
+  "hosting": {
+    "site": "checkout-page-challenge-003",
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
