@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div class="container">
+        <header>Checkout</header>
+        <main>
+            <div class="item1">
+                <img src="./pic/photo1.png" alt="bag">
+                <div class="details">
+                    <div class="title">Vintage Backbag</div>
+                    <div class="price">
+                        <span class="newPrice">$<span>54.99</span></span>
+                        <span class="oldPrice">$<span>94.99</span></span>
+                    </div>
+                    <div class="number">
+                        <button class="decrease">-</button>
+                        <span class="count">0</span>
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+            </div>
+            <div class="item2">
+                <img src="./pic/photo2.png" alt="bag">
+                <div class="details">
+                    <div class="title">Levi Shoes</div>
+                    <div class="price">
+                        <span class="newPrice">$<span>74.99</span></span>
+                        <span class="oldPrice">$<span>124.99</span></span>
+                    </div>
+                    <div class="number">
+                        <button class="decrease">-</button>
+                        <span class="count">0</span>
+                        <button class="increase">+</button>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="shipping">
+                <span>Shipping</span>
+                <span class="sValue">$<span>19</span></span>
+            </div>
+            <hr>
+            <div class="total">
+                <span>Total</span>
+                <span class="tValue">$<span>0</span></span>
+            </div>
+        </main>
+        <nav>
+            <div class="contact">
+                <div class="cTitle">Contact information</div>
+                <div>
+                    <label for="email">E-mail</label>
+                    <div class="inputContainer">
+                        <span class="material-symbols-outlined">
+                            mail
+                        </span>
+                        <input type="email" name="email" id="1" placeholder="Enter your email...">
+                    </div>
+                </div>
+                <div>
+                    <label for="phone">Phone</label>
+                    <div class="inputContainer">
+                        <span class="material-symbols-outlined">
+                            call
+                        </span>
+                        <input type="number" name="phone" id="2" placeholder="Enter your phone...">
+                    </div>
+                </div>
+            </div>
+            <div class="address">
+                <div class="aTitle">Shipping address</div>
+                <div>
+                    <label for="name">Full name</label>
+                    <div class="inputContainer">
+                        <span class="material-symbols-outlined">
+                            person
+                        </span>
+                        <input type="text" name="name" id="3" placeholder="Your full name..">
+                    </div>
+                </div>
+                <div>
+                    <label for="address">Address</label>
+                    <div class="inputContainer">
+                        <span class="material-symbols-outlined">
+                            home
+                        </span>
+                        <input type="text" name="address" id="4" placeholder="Your address..">
+                    </div>
+                </div>
+                <div>
+                    <label for="city">City</label>
+                    <div class="inputContainer">
+                        <span class="material-symbols-outlined">
+                            location_city
+                        </span>
+                        <input type="text" name="city" id="5" placeholder="Your city..">
+                    </div>
+                </div>
+                <div class="countryNPostalCode">
+                    <span>
+                        <label for="country">Country</label>
+                        <div class="selectContainer">
+                            <span class="material-symbols-outlined">
+                                public
+                            </span>
+                            <select name="country" id="6">
+                                <option>Your country..</option>
+                                <option value="china">China</option>
+                                <option value="germany">Germany</option>
+                                <option value="indonesia">Indonesia</option>
+                                <option value="italy">Italy</option>
+                                <option value="japan">Japan</option>
+                                <option value="mexico">Mexico</option>
+                                <option value="south korea">South Korea</option>
+                                <option value="turkey">Turkey</option>
+                                <option value="usa">USA</option>
+                            </select>
+                        </div>
+                    </span>
+                    <span>
+                        <label for="postalCode">Postal code</label>
+                        <div class="input2Container">
+                            <span class="material-symbols-outlined">
+                                markunread_mailbox
+                            </span>
+                            <input type="number" name="postalCode" id="7" placeholder="Your postal code..">
+                        </div>
+                    </span>
+                </div>
+                <div>
+                    <input type="checkbox" name="save" id="8">
+                    <label for="save">Save this information for next time</label>
+                </div>
+                <button type="submit" class="buttonSubmit">Continue</button>
+            </div>
+        </nav>
+        <footer>
+            created by <a href="https://github.com/hasanaimroatun/wpu-checkoutPageChallenge">hasanaimroatun</a> - devChallenges.io
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
